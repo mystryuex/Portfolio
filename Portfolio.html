@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="Port.css" />
+
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Social Media</a
+              >
+            </div>
+            <div class="col-3">
+              <a
+                href="https://packetcode.github.io/web-development-crash-course/resume-mini-project/"
+                target="_blank"
+                class="text-white navigation-link"
+                >Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Dharmanatha</h1>
+          <h2 class="text-white">Student</h2>
+        </div>
+        <div class="col-6">
+          <img
+            src="assets/Me.jpg"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="assets/SPH.jpg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A little bit about me</h1>
+          <p>
+            When i was at primary school i was going school at 
+            <b class="text-warning">SPH</b> which extends into Sekolah Palembang Harapan. !
+          </p>
+          <br />
+          <p>
+            And at middle school and my current highschool i go to <b class="text-warning">Igs</b> which extends into Ignatius Global School</p>
+          <button class="btn btn-outline-warning">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="assets/Bookshelf.png"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bookshelf</h5>
+              <p class="card-text">
+                A web to keep information about what books you have read and finished.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="assets/Solar.png"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Solar System</h5>
+              <p class="card-text">
+                A simple solar system with the sun, earth, and the moon with animations.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="assets/Tetris.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Simple Tetris game</h5>
+              <p class="card-text">
+                This is more of an side project i was scrolling on youtube one day when i came up on a video about coding a simple tetris html game and this is how it came to be.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="assets/Snake.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Simple snake Html</h5>
+              <p class="card-text">
+                This was a fun project of a simple html snake game.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="assets/Bootstrap.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+              <p class="card-text">
+                This is the first time i used bootstrap.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="assets/Jones.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jones person</h5>
+              <p class="card-text">
+                This is a project that we had to do and this is quite early when we were studying coding html so it wasn't the most pretty but it was memorable.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Media</h4>
+        <h1 class="m-heading">Let's be friends</h1>
+        <div class="row pt-5">
+          <div class="col-3 media_link btn" href="#">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Github</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Youtube</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-youtube fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 media_link bg-warning btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-dark">Email</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2024 |
+          <a class="text-warning text-decoration-none" href="#about"
+            >Dharmanatha</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
